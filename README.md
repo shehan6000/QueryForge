@@ -9,37 +9,6 @@ python3 queryforge.py  # and it just works
 
 ---
 
-## Table of Contents
-
-1. [What It Does](#what-it-does)
-2. [Architecture](#architecture)
-3. [Installation & Running](#installation--running)
-4. [SQL Reference](#sql-reference)
-   - [Data Types](#data-types)
-   - [CREATE TABLE](#create-table)
-   - [INSERT](#insert)
-   - [SELECT](#select)
-   - [UPDATE](#update)
-   - [DELETE](#delete)
-   - [Indexes](#indexes)
-   - [ALTER TABLE](#alter-table)
-   - [Transactions](#transactions)
-5. [Expressions & Operators](#expressions--operators)
-6. [Functions](#functions)
-   - [Aggregate Functions](#aggregate-functions)
-   - [Scalar Functions](#scalar-functions)
-7. [REPL Commands](#repl-commands)
-8. [How Each Layer Works](#how-each-layer-works)
-   - [Lexer](#lexer)
-   - [Parser](#parser)
-   - [AST](#ast)
-   - [Executor](#executor)
-   - [Storage & B-Tree Indexes](#storage--b-tree-indexes)
-   - [Transactions](#transaction-manager)
-9. [Demo Walkthrough](#demo-walkthrough)
-10. [Extending QueryForge](#extending-queryforge)
-
----
 
 ## What It Does
 
